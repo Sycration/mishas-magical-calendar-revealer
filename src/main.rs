@@ -4,6 +4,7 @@ use axum::routing::get;
 use axum_template::engine::Engine;
 use handlebars::DirectorySourceOptions;
 use handlebars::Handlebars;
+use rust_embed::RustEmbed;
 
 mod index;
 mod calendar;
