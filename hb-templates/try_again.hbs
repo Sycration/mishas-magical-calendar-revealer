@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Invalid Magic Number</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4b0082;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .error-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #d9534f;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            font-size: 18px;
+            color: #d9534f;
+            margin-top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4b0082;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        input[type="submit"]:hover {
+            background-color: #6a5acd;
+        }
+        .instructions {
+            font-style: italic;
+            color: #666;
+            margin-top: 5px;
+            font-size: 13px;
+        }
+        .try-again {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .error-message {
+            color: #d9534f;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Misha's Magical Calendar Revealer</h1>
+
+        <div class="error-section">
+            <h2>Invalid Magic Number</h2>
+            <div class="error-message">
+                ⚠️ The magic number you entered is {{error_reason}}!
+            </div>
+
+            <div class="try-again">
+                <form action="/calendar" method="get">
+                    <div class="form-group">
+                        <label for="magicNumber">Try another magic number:</label>
+                        <input type="number" id="magicNumber" name="number" required>
+                    </div>
+                    <input type="submit" value="Try Again">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

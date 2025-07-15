@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Calendar - Misha's Magical Calendar Revealer</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4b0082;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .event-card {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+        .event-title {
+            font-size: 18px;
+            color: #6a5acd;
+            margin-top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .event-detail {
+            margin-bottom: 8px;
+        }
+        .detail-label {
+            font-weight: bold;
+            display: inline-block;
+            width: 80px;
+        }
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #4b0082;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 13px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Misha's Magical Calendar Revealer</h1>
+
+        <div class="back-link">
+            <a href="/">&laquo; Back to Magic Number Revealer</a>
+        </div>
+
+        {{#each events as |event| }}
+
+        <div class="event-card">
+            <div class="event-title">{{event.name}}</div>
+            <div class="event-detail">
+                <span class="detail-label">Starts:</span> {{event.starts}}
+            </div>
+            <div class="event-detail">
+                <span class="detail-label">Ends:</span> {{event.ends}}
+            </div>
+            <div class="event-detail">
+                <span class="detail-label">Location:</span> {{event.location}}
+            </div>
+            <div class="event-detail">
+                <span class="detail-label">Notes:</span> {{event.notes}}
+            </div>
+        </div>
+
+        {{/each}}
+
+
+
+    </div>
+</body>
+</html>

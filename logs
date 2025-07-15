@@ -1,0 +1,1756 @@
+Calendar {
+    base_url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/",
+        query: None,
+        fragment: None,
+    },
+    inner: CalendarRef {
+        url: "https://dav.privateemail.com/caldav/Y2FsOi8vMC8zMQ/",
+        name: "sycration@sycration.xyz",
+    },
+}
+Event {
+    etag: Some(
+        "1723871-3-1752487058042",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/5c86df01-b4ea-47ca-a115-97a5acbfc8fe.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VTIMEZONE",
+                properties: [
+                    Property {
+                        name: "TZID",
+                        value: "America/New_York",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250410T142247Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TZURL",
+                        value: "https://www.tzurl.org/zoneinfo-outlook/America/New_York",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "X-LIC-LOCATION",
+                        value: "America/New_York",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "DAYLIGHT",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "EDT",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0500",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0400",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19700308T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                    Ical {
+                        name: "STANDARD",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "EST",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0400",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0500",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19701101T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+            Ical {
+                name: "VTIMEZONE",
+                properties: [
+                    Property {
+                        name: "TZID",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250410T142247Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TZURL",
+                        value: "https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "X-LIC-LOCATION",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "DAYLIGHT",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PDT",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19700308T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                    Ical {
+                        name: "STANDARD",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PST",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19701101T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250714T095738Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250714T095208Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250714T170000",
+                        attributes: {
+                            "TZID": "America/New_York",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250714T130000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250714T095738Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LOCATION",
+                        value: "https://berkeley.zoom.us/j/5824258087",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "2",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Berkeley DSP meeting",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "5c86df01-b4ea-47ca-a115-97a5acbfc8fe",
+                        attributes: {},
+                    },
+                ],
+                children: [],
+            },
+        ],
+    },
+}
+Event {
+    etag: Some(
+        "1723871-4-1752486779546",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/b54a475c-de33-4df0-aa1e-aea7cdfa628f.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250714T095259Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250714T095259Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250724",
+                        attributes: {
+                            "VALUE": "DATE",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250723",
+                        attributes: {
+                            "VALUE": "DATE",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250714T095259Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "RRULE",
+                        value: "FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=23",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "0",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Ash Emmert Birthday",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "b54a475c-de33-4df0-aa1e-aea7cdfa628f",
+                        attributes: {},
+                    },
+                ],
+                children: [],
+            },
+        ],
+    },
+}
+Event {
+    etag: Some(
+        "1723871-5-1752487098341",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/1040d1fd-f32d-46c3-98dc-5673d2f02093.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VTIMEZONE",
+                properties: [
+                    Property {
+                        name: "TZID",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250410T142247Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TZURL",
+                        value: "https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "X-LIC-LOCATION",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "DAYLIGHT",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PDT",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19700308T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                    Ical {
+                        name: "STANDARD",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PST",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19701101T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250714T095818Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250714T095818Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250714T123000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250714T113000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250714T095818Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LOCATION",
+                        value: "zoom",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "RRULE",
+                        value: "FREQ=WEEKLY;BYDAY=MO",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "0",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Aimee",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "1040d1fd-f32d-46c3-98dc-5673d2f02093",
+                        attributes: {},
+                    },
+                ],
+                children: [],
+            },
+        ],
+    },
+}
+Event {
+    etag: Some(
+        "1723871-6-1752519476283",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/53bf99ef-b56f-490d-8795-5adc9f5b6e65.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VTIMEZONE",
+                properties: [
+                    Property {
+                        name: "TZID",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250410T142247Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TZURL",
+                        value: "https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "X-LIC-LOCATION",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "DAYLIGHT",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PDT",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19700308T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                    Ical {
+                        name: "STANDARD",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PST",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19701101T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250714T185756Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250714T100004Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DESCRIPTION",
+                        value: "Tix in DICE app",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250803T010000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250802T210000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250714T185756Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LOCATION",
+                        value: "Don Quixote nightclub\\, 2811 E Olympic Blvd",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "1",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Ravefurrest LA",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "53bf99ef-b56f-490d-8795-5adc9f5b6e65",
+                        attributes: {},
+                    },
+                ],
+                children: [],
+            },
+        ],
+    },
+}
+Event {
+    etag: Some(
+        "1723871-7-1752519439383",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/804c007a-f44a-4521-8d4a-7bfd56283165.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VTIMEZONE",
+                properties: [
+                    Property {
+                        name: "TZID",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250410T142247Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TZURL",
+                        value: "https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "X-LIC-LOCATION",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "DAYLIGHT",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PDT",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19700308T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                    Ical {
+                        name: "STANDARD",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PST",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19701101T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250714T185719Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250714T100110Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DESCRIPTION",
+                        value: "Tix in DICE app",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250807T233000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250807T180000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250714T185719Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LOCATION",
+                        value: "El Cid nightclub\\, 4212 W Sunset Blvd",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "1",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Vaeo & Rouri404",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "804c007a-f44a-4521-8d4a-7bfd56283165",
+                        attributes: {},
+                    },
+                ],
+                children: [],
+            },
+        ],
+    },
+}
+Event {
+    etag: Some(
+        "1723871-8-1752487416145",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/de70526d-22b5-445f-948f-4cb61b7c4ae0.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VTIMEZONE",
+                properties: [
+                    Property {
+                        name: "TZID",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250410T142247Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TZURL",
+                        value: "https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "X-LIC-LOCATION",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "DAYLIGHT",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PDT",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19700308T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                    Ical {
+                        name: "STANDARD",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PST",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19701101T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250714T100336Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250714T100336Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250713T190000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250713T140000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250714T100336Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LOCATION",
+                        value: "8827 Woodley Avenue",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "RRULE",
+                        value: "FREQ=WEEKLY;UNTIL=20250820T065959Z;BYDAY=SU",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "0",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Dungeons & Dragons",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "de70526d-22b5-445f-948f-4cb61b7c4ae0",
+                        attributes: {},
+                    },
+                ],
+                children: [],
+            },
+        ],
+    },
+}
+Event {
+    etag: Some(
+        "1723871-9-1752489442330",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/53C1FF86-99D5-4F59-9F04-7CC899466E01.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VTIMEZONE",
+                properties: [
+                    Property {
+                        name: "TZID",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250410T142247Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TZURL",
+                        value: "https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "X-LIC-LOCATION",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "DAYLIGHT",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PDT",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19700308T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                    Ical {
+                        name: "STANDARD",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PST",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19701101T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250714T103722Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250714T103707Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DESCRIPTION",
+                        value: "check obsidian for classes",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250715T120000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250715T110000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250714T103722Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "0",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Sign up for classes",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "53C1FF86-99D5-4F59-9F04-7CC899466E01",
+                        attributes: {},
+                    },
+                ],
+                children: [],
+            },
+        ],
+    },
+}
+Event {
+    etag: Some(
+        "1723871-10-1752526331515",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/1752526331.R968.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250714T205211Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250714T205211Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DESCRIPTION",
+                        value: "Make an academic advising appointment",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250719",
+                        attributes: {
+                            "VALUE": "DATE",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250718",
+                        attributes: {
+                            "VALUE": "DATE",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250714T205211Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LOCATION",
+                        value: "https://lsadvising.berkeley.edu/appointments-advice",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "0",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Academic advising",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "696c0b54-bf87-47d5-b2b2-c7549ed82fd2",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "VALARM",
+                        properties: [
+                            Property {
+                                name: "TRIGGER",
+                                value: "-PT15M",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "UID",
+                                value: "558efbf4-3cc1-49e2-bb20-d17b84774986",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "ACTION",
+                                value: "DISPLAY",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DESCRIPTION",
+                                value: "Alarm",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "X-KDE-KCALCORE-ENABLED",
+                                value: "TRUE",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+        ],
+    },
+}
+Event {
+    etag: Some(
+        "1723871-11-1752540528673",
+    ),
+    url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/1752540528.R619.ics",
+        query: None,
+        fragment: None,
+    },
+    ical: Ical {
+        name: "VCALENDAR",
+        properties: [
+            Property {
+                name: "VERSION",
+                value: "2.0",
+                attributes: {},
+            },
+            Property {
+                name: "PRODID",
+                value: "-//Open-Xchange//7.10.6-Rev78//EN",
+                attributes: {},
+            },
+        ],
+        children: [
+            Ical {
+                name: "VTIMEZONE",
+                properties: [
+                    Property {
+                        name: "TZID",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250410T142247Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TZURL",
+                        value: "https://www.tzurl.org/zoneinfo-outlook/America/Los_Angeles",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "X-LIC-LOCATION",
+                        value: "America/Los_Angeles",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "DAYLIGHT",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PDT",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19700308T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                    Ical {
+                        name: "STANDARD",
+                        properties: [
+                            Property {
+                                name: "TZNAME",
+                                value: "PST",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETFROM",
+                                value: "-0700",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "TZOFFSETTO",
+                                value: "-0800",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DTSTART",
+                                value: "19701101T020000",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "RRULE",
+                                value: "FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+            Ical {
+                name: "VEVENT",
+                properties: [
+                    Property {
+                        name: "DTSTAMP",
+                        value: "20250715T004848Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CLASS",
+                        value: "PUBLIC",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "CREATED",
+                        value: "20250715T004848Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "DTEND",
+                        value: "20250707T200000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "DTSTART",
+                        value: "20250707T190000",
+                        attributes: {
+                            "TZID": "America/Los_Angeles",
+                        },
+                    },
+                    Property {
+                        name: "LAST-MODIFIED",
+                        value: "20250715T004848Z",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SEQUENCE",
+                        value: "0",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "SUMMARY",
+                        value: "Last Monday",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "TRANSP",
+                        value: "OPAQUE",
+                        attributes: {},
+                    },
+                    Property {
+                        name: "UID",
+                        value: "0d9644d1-ea40-479b-8f91-dc9b164bbd95",
+                        attributes: {},
+                    },
+                ],
+                children: [
+                    Ical {
+                        name: "VALARM",
+                        properties: [
+                            Property {
+                                name: "TRIGGER",
+                                value: "-PT15M",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "UID",
+                                value: "df376b54-51c0-4969-bc50-ea1071244a5b",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "ACTION",
+                                value: "DISPLAY",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "DESCRIPTION",
+                                value: "Alarm",
+                                attributes: {},
+                            },
+                            Property {
+                                name: "X-KDE-KCALCORE-ENABLED",
+                                value: "TRUE",
+                                attributes: {},
+                            },
+                        ],
+                        children: [],
+                    },
+                ],
+            },
+        ],
+    },
+}
+Calendar {
+    base_url: Url {
+        scheme: "https",
+        cannot_be_a_base: false,
+        username: "",
+        password: None,
+        host: Some(
+            Domain(
+                "dav.privateemail.com",
+            ),
+        ),
+        port: None,
+        path: "/caldav/Y2FsOi8vMC8zMQ/",
+        query: None,
+        fragment: None,
+    },
+    inner: CalendarRef {
+        url: "https://dav.privateemail.com/caldav/MzM/",
+        name: "sycration@sycration.xyz",
+    },
+}

@@ -1,0 +1,23 @@
+[package]
+name = "calendar-view"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = {version = "0.8", features = ["form", "macros"]}
+axum-template = {version = "3", features = ["handlebars"]}
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "process", "signal"] }
+dotenvy = "0.15"
+rust-embed = {version = "8", features = ["axum", "tokio", "mime_guess", "mime-guess"]}
+handlebars = {version = "6", features = ["dir_source", "rust-embed"]}
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+minicaldav = "0.8.0"
+url = "2.5.4"
+chrono = "0.4"
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+ureq = "2"
+iso8601 = { version = "0.6", features = ["chrono"] }
+rrule = "0.14.0"
+chrono-tz = "0.10.4"
